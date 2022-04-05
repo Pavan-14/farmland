@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newuser</title>
+    <!--background-color: hsl(9, 100%, 64%); -->
+    <style>
+      body {
+        background-color: hsla(9, 55%, 50%, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>SignUp</legend>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" />
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" />
+        <label for="email">Email</label>
+        <input type="email" name="email" value="abcd@gmail.com" id="" />
+        <label for="Password">Passsword</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="enter password"
+          id=""
+        />
+        <label for="Re-enter password">Re-enter Password</label>
+        <input type="password" name="password" />
+        <label for="select profession">Select Profession</label>
+        <select name="profession">
+          <option value="farmer">Farmer</option>
+          <option value="buyer">Buyer</option>
+        </select>
+      </fieldset>
+      <!--submit-->
+      <input type="submit" value="Signup" />
+    </form>
+  </body>
+</html>
